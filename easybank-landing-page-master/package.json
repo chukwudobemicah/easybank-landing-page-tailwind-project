@@ -1,0 +1,18 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": " tailwindcss -i ./input/input.css -o output.css --watch",
+    "start:parcel": "parcel serve index.html",
+    "build:parcel": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "tailwindcss": "^3.2.7"
+  }
+}
